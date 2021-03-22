@@ -1,0 +1,1 @@
+cmd_/home/douglas/CS621/mymodule.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/douglas/CS621/mymodule.ko /home/douglas/CS621/mymodule.o /home/douglas/CS621/mymodule.mod.o;  true
